@@ -1,0 +1,83 @@
+.profile-container {
+  padding: 50px;
+}
+
+.profile-form {
+  margin: 50px;
+  padding: 20px;
+}
+
+.profile-container .profile-form .profile-top-section {
+  margin-bottom: 50px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  align-items: center;
+}
+
+.profile-container .profile-form .profile-top-section .apply-again {
+  min-height: 30px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  background-color: #04047a;
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+.profile-container .profile-form .profile-top-section .apply-again:hover {
+  background-color: #be0a0a;
+  border: 1px solid #fff;
+}
+
+.profile-container .profile-form .profile-top-section .btn-disabled {
+  background-color: #686363;
+  cursor: default;
+  min-height: 30px;
+  padding: 10px 20px;
+  border: none;
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+.profile-container .profile-form .profile-pic {
+  background-color: #8407a1;
+  color: #fff;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  font-family: monospace;
+}
+
+.profile-container .profile-form .submit-btn {
+  background-color: #ba0303;
+}
+
+.profile-container .profile-form .submit-btn:hover {
+  background-color: #b31111;
+  border: 1px solid #fff;
+}
+
+.profile-container .profile-form .edit-btn {
+  display: block;
+  margin: 0 auto;
+  width: 250px;
+  letter-spacing: 10px;
+  background-color: #ba0303;
+  border-radius: 200px;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+}
+
+.profile-container .profile-form .edit-btn:hover {
+  background-color: #b31111;
+  border: 1px solid #fff;
+}

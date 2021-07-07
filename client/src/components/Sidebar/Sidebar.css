@@ -1,0 +1,31 @@
+.sidebar-list-item {
+  margin: 30px 10px;
+  padding: 10px 10px 10px 0px;
+  border-bottom: 2px solid #030a44;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.sidebar-list-item:hover {
+  background-color: #0f27ec;
+  border: 2px solid #030a44;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.item-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.sidebar-options {
+  list-style-type: none;
+  padding: 5px;
+}
+
+.sidebar-icon {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+  margin-left: 7px;
+}

@@ -1,0 +1,46 @@
+.grievance-main-container {
+  padding: 30px 50px;
+}
+
+.grievance-inner-container {
+  display: flex;
+}
+
+.grievances-table {
+  width: 60%;
+  padding: 10px;
+}
+
+.grievance-report-form {
+  width: 40%;
+  padding: 10px;
+}
+
+.report-grievance-heading {
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  font-family: "Original Surfer", cursive;
+}
+
+.grievances-load-btn {
+  margin-bottom: 20px;
+  background-color: #0722f7;
+  border: none;
+  color: #fff;
+  padding: 10px;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.grievances-load-btn:hover {
+  background-color: #ef2207;
+  border: 1px solid #fff;
+}
+
+.no-grievances-message {
+  display: block;
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 2px;
+}

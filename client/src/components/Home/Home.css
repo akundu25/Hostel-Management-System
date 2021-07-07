@@ -1,0 +1,49 @@
+.main-container {
+  width: auto;
+  height: auto;
+  margin-top: 60px;
+  display: flex;
+  padding: 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-component {
+  width: 50%;
+  margin-left: 80px;
+  margin-bottom: 45px;
+}
+
+.intro-text {
+  padding: 5px;
+  margin-bottom: 50px;
+  font-size: 40px;
+  font-family: "Original Surfer", cursive;
+  color: #fff;
+  text-align: center;
+}
+
+.register-btn {
+  padding: 15px 20px;
+  margin-left: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Roboto Condensed", sans-serif;
+  letter-spacing: 2px;
+  background-color: #040fa0;
+  color: #fff;
+  border-radius: 200px;
+}
+
+.register-btn:hover {
+  background-color: #131ead;
+  border: 1px solid #fff;
+}
+
+.image-component {
+  width: 50%;
+}
+
+.hostel-images {
+  margin-left: 100px;
+}

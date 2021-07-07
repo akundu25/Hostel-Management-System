@@ -1,0 +1,96 @@
+.warden-select-container {
+  margin: 40px;
+  min-height: 552px;
+}
+
+.warden-select-inner-container {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+.select-year {
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+  font-size: 30px;
+  font-family: monospace;
+}
+
+.year-selection {
+  background-color: #060e45;
+  border: 1px solid #fff;
+  margin-left: 10px;
+  margin-right: 5px;
+  width: 130px;
+  color: #fff;
+  font-size: 15px;
+  font-family: monospace;
+}
+
+.select-warden {
+  padding: 20px;
+}
+
+.warden-info {
+  margin: 20px;
+}
+
+.warden-signup-btn {
+  width: 200px;
+  margin-top: 20px;
+  margin-left: 245px;
+  background-color: #ba0303;
+  letter-spacing: 2px;
+  border: none;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  border-radius: 200px;
+  cursor: pointer;
+}
+
+.warden-signup-btn:hover {
+  background-color: #b31111;
+  border: 1px solid #fff;
+}
+
+.warden-signup-disabled {
+  width: 200px;
+  margin-top: 20px;
+  margin-left: 245px;
+  letter-spacing: 2px;
+  border: none;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  border-radius: 200px;
+  background-color: #a7add5;
+  cursor: default;
+}
+
+.warden-remove-btn {
+  border: none;
+  background-color: #ba0303;
+  letter-spacing: 2px;
+  border-radius: 200px;
+  color: #fff;
+  margin: 0px 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.warden-remove-btn:hover {
+  background-color: #b31111;
+  border: 1px solid #fff;
+}
+
+.signup-error-message,
+.warden-delete-error-message,
+.wardens-not-assigned-message {
+  color: #fff;
+  letter-spacing: 2px;
+  font-family: monospace;
+  text-align: center;
+}

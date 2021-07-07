@@ -1,0 +1,44 @@
+.room-occupant-delete-btn {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.rooms-table th {
+  color: #fff;
+  font-size: 20px;
+  border-bottom: 2px solid #fff;
+  padding: 20px;
+}
+
+.rooms-table td {
+  text-align: center;
+  padding: 10px;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.rooms-table .occupant-cell {
+  text-align: left;
+}
+
+.rooms-table .add-occupant-btn {
+  cursor: pointer;
+  border: none;
+  color: #fff;
+  background-color: #0722f7;
+  padding: 5px 10px;
+}
+
+.rooms-table .add-occupant-btn:hover {
+  background-color: #ef2207;
+  border: 1px solid #fff;
+}
+
+.rooms-table .add-occupant-btn-disabled {
+  background-color: #a7add5;
+  cursor: default;
+  padding: 5px 10px;
+  border: none;
+}

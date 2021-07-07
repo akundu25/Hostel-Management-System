@@ -1,0 +1,24 @@
+.main-room-container {
+  margin: 50px;
+  min-height: 532px;
+  display: flex;
+  flex-direction: column;
+}
+
+.inner-room-container {
+  margin: 20px auto;
+  padding: 10px;
+}
+
+.no-rooms-available {
+  color: #fff;
+  font-size: 20px;
+  font-family: monospace;
+  letter-spacing: 2px;
+}
+
+.rooms-error-message {
+  text-align: center;
+  color: #fff;
+  letter-spacing: 2px;
+}

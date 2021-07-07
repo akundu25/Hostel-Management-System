@@ -1,0 +1,47 @@
+.grievance-form {
+  padding: 0px 30px;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+.grievance-form label {
+  margin: 5px 0px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.grievance-form input {
+  background-color: transparent;
+  margin: 5px 0px;
+  color: #fff;
+  border: none;
+  border-bottom: 1px solid #fff;
+}
+
+.grievance-form textarea {
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.grievance-form .grievance-form-btn {
+  margin-top: 20px;
+  background-color: #0722f7;
+  border: none;
+  padding: 10px;
+  color: #fff;
+  font-size: 18px;
+  font-family: "Roboto Condensed", sans-serif;
+  border-radius: 200px;
+  letter-spacing: 4px;
+  cursor: pointer;
+}
+
+.grievance-form .grievance-form-btn:hover {
+  background-color: #ef2207;
+  border: 1px solid #fff;
+}
+
+.dual-input {
+  display: flex;
+}

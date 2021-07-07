@@ -1,0 +1,63 @@
+.new-application-container {
+  margin: 100px;
+}
+
+.new-application-inner-container {
+  margin: 50px;
+  padding: 20px;
+}
+
+.new-student-card {
+  padding: 20px;
+  background-color: #fff;
+  min-height: 100px;
+  border-radius: 20px;
+}
+
+.new-student-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 18px;
+  font-family: monospace;
+}
+
+.new-student-name {
+  width: 34%;
+}
+
+.new-student-email {
+  width: 34%;
+}
+
+.new-student-roll {
+  width: 32%;
+}
+
+.new-student-room-allotment {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  padding: 0px 20px;
+}
+
+.room-allocate-link,
+.cancle-application {
+  width: 50%;
+  cursor: pointer;
+  color: #d30b0b;
+  text-decoration: underline;
+}
+
+.no-new-applicants {
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-family: monospace;
+  text-align: center;
+}

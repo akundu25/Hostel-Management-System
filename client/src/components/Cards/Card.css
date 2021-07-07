@@ -1,0 +1,23 @@
+.card-body {
+  width: 150px;
+  height: 150px;
+  background-color: #4689da;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  border-radius: 20px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-family: monospace;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.card-body:hover {
+  background-color: #e9544e;
+  border: 1px solid #fff;
+}

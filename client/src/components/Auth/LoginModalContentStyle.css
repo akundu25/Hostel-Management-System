@@ -1,0 +1,124 @@
+.heading,
+.sub-heading {
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 2px;
+}
+
+.heading {
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+
+.sub-heading {
+  font-size: 20px;
+}
+
+.login-form,
+.password-reset-form {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.set-new-password-form {
+  margin: 70px 10px 10px 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.set-new-password-form label {
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 600;
+}
+
+.set-new-password-form input {
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: 1px solid #586462;
+  width: 100%;
+  font-weight: 600;
+}
+
+.login-form label {
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 600;
+}
+
+.login-form input {
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: 1px solid #586462;
+  width: 100%;
+  font-weight: 600;
+}
+
+.password-reset-form label {
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 600;
+}
+
+.password-reset-form input {
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: 1px solid #586462;
+  width: 100%;
+  font-weight: 600;
+}
+
+.log-btn,
+.pass-reset-btn {
+  margin-top: 20px;
+  border: none;
+  border-radius: 200px;
+  font-size: 20px;
+  font-family: "Roboto Condensed", sans-serif;
+  letter-spacing: 2px;
+  color: #fff;
+  background-color: #0c9b81;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.log-btn:hover,
+.pass-reset-btn:hover {
+  background-color: #16b69b;
+}
+
+.forget-password,
+.back-to-login {
+  cursor: pointer;
+  font-size: 15px;
+  text-align: center;
+  color: #ba0303;
+  text-decoration: underline;
+}
+
+.password-reset-heading {
+  text-align: center;
+  font-size: 17px;
+}
+
+.password-reset-email-sent {
+  text-align: center;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+
+.error-message {
+  color: #ba0303;
+  text-align: center;
+  padding: 10px;
+  font-family: monospace;
+  letter-spacing: 2px;
+  font-weight: 600;
+}

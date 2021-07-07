@@ -1,0 +1,64 @@
+.adminSignup {
+  margin: 130px;
+  padding: 50px;
+}
+
+.double-input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px;
+}
+
+.adminSignup input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #fff;
+  color: #fff;
+}
+
+.adminSignup input:focus {
+  color: #fff;
+}
+
+.admin-signup-btn {
+  background-color: #ba0303;
+  color: #fff;
+  border: none;
+  border-radius: 200px;
+  padding: 10px;
+  letter-spacing: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  width: 50%;
+  margin-left: 215px;
+  cursor: pointer;
+  margin-top: 50px;
+  font-family: "Roboto Condensed", sans-serif;
+  text-align: center;
+}
+
+.admin-signup-btn:hover {
+  background-color: #b31111;
+  border: 1px solid #fff;
+}
+
+.adminSignup label {
+  font-size: 15px;
+  letter-spacing: 2px;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #fff;
+}
+
+.admin-error-message {
+  color: #fff;
+  text-align: center;
+  padding: 2px 10px;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-family: monospace;
+}

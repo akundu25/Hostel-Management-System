@@ -1,0 +1,91 @@
+.form-container {
+  padding: 50px;
+}
+
+.registration-form {
+  margin: 50px;
+  padding: 20px;
+}
+
+.fileInput {
+  margin-bottom: 50px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+.profile-pic {
+  margin-bottom: 20px;
+}
+
+.input-double {
+  margin: 50px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input-double input {
+  margin-right: 50px;
+  margin-left: 50px;
+  border: none;
+  background-color: transparent;
+  width: 100%;
+  border-bottom: 2px solid #fff;
+  color: #fff;
+}
+
+.input-double input:focus {
+  color: #fff;
+}
+
+.input-double label {
+  font-size: 15px;
+  letter-spacing: 2px;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #fff;
+}
+
+.input-double textarea {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #fff;
+  color: #fff;
+}
+
+.submit-btn {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  letter-spacing: 10px;
+  background-color: #ba0303;
+  border-radius: 200px;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+}
+
+.submit-btn:hover {
+  background-color: #b31111;
+  border: 1px solid #fff;
+}
+
+.pwd-visibility {
+  width: 20px;
+  margin-right: 40px;
+  cursor: pointer;
+}
+
+.student-register-error-message {
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  font-family: monospace;
+  letter-spacing: 2px;
+  font-weight: 600;
+}

@@ -1,0 +1,30 @@
+.warden {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.warden-double-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.warden .warden-double-info label {
+  color: #fff;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.warden .warden-double-info input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #fff;
+  color: #fff;
+}
+
+.warden-pwd-visibility {
+  margin-right: 20px;
+  width: 20px;
+  cursor: pointer;
+}
